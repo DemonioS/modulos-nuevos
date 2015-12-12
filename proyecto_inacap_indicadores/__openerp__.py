@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
  
 {
-    'name' : 'indicadores financieros de chile',
+    'name' : 'remuneracion de chile',
     'version' : '1.0',
     'author' : 'Alejandro Wenzel',
     'summary' : 'proyecto titulo',
     'aplication' : True,    
-    'description' : 'indicadores chilenos para el calculo de remuneraciones ',
+    'description' : 'indicadores chilenos y remuneraciones ',
     'depends' : [
             'base',
             ],
@@ -14,7 +14,8 @@
             'indicadores1_view.xml', 
             'indicadores2_view.xml', 
             'indicadores3_view.xml', 
-                ],
+            'remuneraciones_view.xml', 
+              ],
     'installable' : True,
     'aplication' : True,    
 }
